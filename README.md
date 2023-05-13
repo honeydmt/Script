@@ -8,6 +8,8 @@
 
 - PHDGD Drivers, this is a modded Intel Graphics (in my case 2016 driver) my Intel 4400HD can give some improve of perfomance in this driver in old games or old directx games, bcz this 2016 can not afford with new games like Overwatch 2 (its crash on start) but i preffer using this type of driver.
 
+- Script Download: https://raw.githubusercontent.com/honeydmt/Script/main/scripts/All-In-One.bat click on save as, and save as .bat or .cmd
+
 > Credits: 
 - KMS VL AIO: https://github.com/abbodi1406/KMS_VL_ALL_AIO
 - Memory Cleaner : Danske 
