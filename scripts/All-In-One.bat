@@ -16,8 +16,8 @@ echo Download Progams
 echo .
 
 :: MemoryCleaner and ThrottleStop
-curl -O https://raw.githubusercontent.com/honeydmt/test/master/progams/ThrottleStop.exe
-curl -O https://raw.githubusercontent.com/honeydmt/test/master/progams/MemoryCleaner.exe
+curl -O https://raw.githubusercontent.com/honeydmt/Script/main/progams/ThrottleStop.exe
+curl -O https://raw.githubusercontent.com/honeydmt/Script/main/progams/MemoryCleaner.exe
 
 echo Move the applications 
 echo .
@@ -44,13 +44,13 @@ echo Downloading the script for github
 echo .
 
 :: Script link
-curl -O https://raw.githubusercontent.com/honeydmt/test/master/scripts/post-restart.bat
+curl -O https://raw.githubusercontent.com/honeydmt/Script/main/scripts/post-restart.bat
 
 echo Now setting gonna activate windows safe mode for drivers install
 echo .
 
 :: Set Test Mode
-bcdedit -set loadoptions DISABLE_INTEGRITY_CHECKS Press ENTER
+bcdedit -set loadoptions DISABLE_INTEGRITY_CHECKS
 bcdedit -set TESTSIGNING ON
 
 echo creating a task for post-restart script
