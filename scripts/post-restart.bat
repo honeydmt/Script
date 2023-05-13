@@ -83,6 +83,13 @@ echo .
 :: Visual-C-Runtimes
 "C:\Users\Daniel Honey\Downloads\scripts\post-install\VisualCppRedist_AIO_x86_x64.exe
 
+echo Deleting post-install folder
+echo .
+
+:: rmdir
+cd ..
+rmdir /s /q "C:\Users\Daniel Honey\Downloads\scripts\post-install"
+
 echo Disable safe mode
 echo .
 
